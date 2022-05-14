@@ -1,6 +1,6 @@
 import React from 'react'
-import Icons from './taskbar-components/center/icons'
-import Weather from './taskbar-components/weather'
+import Icons from './taskbar-components/center/Icons'
+import Weather from './taskbar-components/Weather'
 
 export default function Taskbar() {
   return (
