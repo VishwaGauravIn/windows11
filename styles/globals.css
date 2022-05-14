@@ -13,3 +13,19 @@
 html{
     font-family: 'Segoe UI Variable', sans-serif;
 }
+
+/* fadein */
+.fadein{
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100;
+  }
+}
