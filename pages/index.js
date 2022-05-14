@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Desktop from '../components/desktop/Desktop'
+import Taskbar from '../components/taskbar/Taskbar'
 
 export default function Home() {
   return (
@@ -9,8 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <body className="">
-        xXx
+      <body className="text-white">
+        <Desktop/>
+        <Taskbar/>
       </body>
     </>
   )
