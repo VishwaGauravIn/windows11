@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-variable');
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+  }
+
+/* Segoe Font */
+html{
+    font-family: 'Segoe UI Variable', sans-serif;
+}
