@@ -3,12 +3,12 @@ import { ChevronUpIcon, MoonIcon, RefreshIcon, VolumeOffIcon, WifiIcon } from "@
 
 export default function Tray() {
   return (
-    <div className="absolute right-0 mr-3 opacity-95 flex items-center">
+    <div className="absolute right-0 mr-3 opacity-90 flex items-center">
       {/* Minor Tray */}
       <ChevronUpIcon className="w-[24px] stroke-[1] hover:bg-white/10 h-12 px-0.5"/>
       <RefreshIcon className="w-[24px] stroke-[1] hover:bg-white/10 h-12 -scale-x-100 px-0.5"/>
       {/* Tray Icons (post) */}
-      <div className="flex flex-wrap opacity-90 space-x-2 px-2 ml-1 rounded hover:bg-white/10 select-none hover:ring-1 ring-white/5 py-2.5">
+      <div className="flex flex-wrap space-x-2 px-2 ml-1 rounded hover:bg-white/10 select-none hover:ring-1 ring-white/5 py-2.5">
         <WifiIcon className="w-[18px] stroke-[2]" />
         <VolumeOffIcon className="w-[18px] stroke-[2]" />
         <svg
