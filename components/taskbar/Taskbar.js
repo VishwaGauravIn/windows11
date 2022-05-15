@@ -1,7 +1,7 @@
 import React from 'react'
 import Icons from './taskbar-components/center/Icons'
 import Tray from './taskbar-components/right/Tray'
-import Weather from './taskbar-components/Weather'
+import Weather from './taskbar-components/widget/Weather'
 
 export default function Taskbar() {
   return (
