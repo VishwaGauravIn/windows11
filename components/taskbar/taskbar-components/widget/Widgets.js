@@ -7,7 +7,7 @@ import TodoWidget from "./widget-components/TodoWidget";
 
 export default function Widgets() {
   return (
-    <div className="absolute z-20 h-[835px] w-[750px] bg-gray-700/90 top-0 left-4 -mt-[800px] rounded-lg text-gray-200">
+    <div className="absolute hidden group-hover:block z-20 h-[835px] w-[750px] bg-gray-700/90 top-0 left-4 -mt-[800px] rounded-lg text-gray-200 fadein">
       {/* Header */}
       <div className="relative">
         <p className="absolute left-1/2 -translate-x-1/2 text-3xl mt-5">
