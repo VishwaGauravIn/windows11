@@ -1,4 +1,4 @@
-import { DotsHorizontalIcon } from "@heroicons/react/outline";
+import { DotsHorizontalIcon, HomeIcon } from "@heroicons/react/outline";
 import React from "react";
 
 export default function TodoWidget() {
@@ -8,6 +8,11 @@ export default function TodoWidget() {
         <img src="/icons/todo.png" alt="" className="w-5 mr-3" />
         <p className="opacity-90">To Do</p>
         <DotsHorizontalIcon className="w-5 mt-0.5 absolute right-0" />
+      </div>
+      {/* Tasks Collection Selection */}
+      <div className="flex bg-zinc-100/10 hover:bg-zinc-100/20 transition-all ease-in-out w-max px-1 pr-2 py-1 rounded mt-4 ml-4">
+          <HomeIcon className="w-5"/>
+          <p className="ml-1 font-medium">Tasks</p>
       </div>
       {/* Tasks */}
       <div className="px-4 p-4">
