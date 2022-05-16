@@ -63,8 +63,14 @@ export default function Widgets() {
               </div>
             </div>
             {/* For Extras */}
-            <p className="text-sm mt-2 text-center text-cyan-500 opacity-80">
-              See more about IPL
+            <p className="text-sm mt-2 text-center text-cyan-500 opacity-80 hover:opacity-100 transition-all ease-in-out">
+              <a
+                href="https://www.cricbuzz.com/"
+                target="_blank"
+                rel="noopener,noreferrer"
+              >
+                See more about IPL
+              </a>
             </p>
           </div>
           {/* Stock Card */}
@@ -95,8 +101,14 @@ export default function Widgets() {
                 <p className="">+0.35%</p>
               </span>
             </div>
-            <p className="text-sm mt-2 text-center text-cyan-500 opacity-80">
-              Check stock prices
+            <p className="text-sm mt-2 text-center text-cyan-500 opacity-80 hover:opacity-100 transition-all ease-in-out">
+              <a
+                href="https://www.nseindia.com/market-data/live-equity-market"
+                target="_blank"
+                rel="noopener,noreferrer"
+              >
+                Check stock prices
+              </a>
             </p>
           </div>
         </div>
