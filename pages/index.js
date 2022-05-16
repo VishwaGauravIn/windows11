@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <body className="text-white">
+      <body className="text-white h-[864px] w-[1536px]">
         <Desktop/>
         <Taskbar/>
       </body>

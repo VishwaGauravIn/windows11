@@ -76,6 +76,8 @@ export default function TodoWidget() {
           />
           <p className="ml-2 text-sm">Contribute to our Project</p>
         </a>
+        {/* <p className="text-center mt-4 opacity-20">Dimensions: 1536x864px</p> */}
+
       </div>
     </div>
   );
