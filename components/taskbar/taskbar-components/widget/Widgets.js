@@ -1,4 +1,4 @@
-import { DotsHorizontalIcon, SearchIcon } from "@heroicons/react/outline";
+import { SearchIcon } from "@heroicons/react/outline";
 import { PlusIcon, UserIcon } from "@heroicons/react/solid";
 import React from "react";
 import SportsWidget from "./widget-components/SportsWidget";

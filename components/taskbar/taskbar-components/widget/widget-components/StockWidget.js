@@ -30,7 +30,7 @@ export default function StockWidget() {
                 <p className="">+0.35%</p>
               </span>
             </div>
-            <p className="text-sm mt-2 text-center text-cyan-500 opacity-80 hover:opacity-100 transition-all ease-in-out">
+            <p className="text-sm mt-2.5 text-center text-cyan-500 opacity-80 hover:opacity-100 transition-all ease-in-out">
               <a
                 href="https://www.nseindia.com/market-data/live-equity-market"
                 target="_blank"
