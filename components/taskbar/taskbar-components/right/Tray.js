@@ -1,5 +1,6 @@
 import React from "react";
 import { ChevronUpIcon, MoonIcon, RefreshIcon, VolumeOffIcon, WifiIcon } from "@heroicons/react/outline";
+import TrayItems from "./right-components/TrayItems";
 
 export default function Tray() {
   return (
@@ -28,6 +29,7 @@ export default function Tray() {
         </div>
         <MoonIcon className="w-5 stroke-[1.5] -rotate-90" />
       </div>
+      <TrayItems/>
     </div>
   );
 }
