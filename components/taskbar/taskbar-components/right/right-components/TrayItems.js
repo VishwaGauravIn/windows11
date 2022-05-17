@@ -2,6 +2,8 @@ import {
   ChevronRightIcon,
   MoonIcon,
   PaperAirplaneIcon,
+  SunIcon,
+  VolumeUpIcon,
   WifiIcon,
 } from "@heroicons/react/outline";
 import React from "react";
@@ -81,6 +83,19 @@ export default function TrayItems() {
             Accessibility
           </p>
         </div>
+      </div>
+      {/* Stack 3 - Sliders */}
+      <div className="mt-[68px]">
+          {/* Brightness Slider */}
+          <div className="flex">
+              <SunIcon className="w-4"/>
+              <input type="range" name="" id="" className="w-[290px] ml-2" />
+          </div>
+          {/* Volume Slider */}
+          <div className="flex mt-11">
+              <VolumeUpIcon className="w-4"/>
+              <input type="range" name="" id="" className="w-[290px] ml-2" />
+          </div>
       </div>
     </div>
   );
