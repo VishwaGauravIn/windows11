@@ -1,7 +1,9 @@
 import {
   ChevronRightIcon,
+  CogIcon,
   MoonIcon,
   PaperAirplaneIcon,
+  PencilIcon,
   SunIcon,
   VolumeUpIcon,
   WifiIcon,
@@ -10,7 +12,7 @@ import React from "react";
 
 export default function TrayItems() {
   return (
-    <div className="w-[357px] h-[394px] bg-zinc-900/90 absolute right-0.5 bottom-3 rounded-lg ring-1 ring-zinc-300/10 p-5">
+    <div className="w-[357px] h-[394px] bg-zinc-800/90 absolute right-0.5 bottom-3 rounded-lg ring-1 ring-zinc-300/10 p-5">
       {/* Stack 1 */}
       <div className="flex justify-between text-sm">
         {/* Item 1 */}
@@ -86,16 +88,33 @@ export default function TrayItems() {
       </div>
       {/* Stack 3 - Sliders */}
       <div className="mt-[68px]">
-          {/* Brightness Slider */}
-          <div className="flex">
-              <SunIcon className="w-4"/>
-              <input type="range" name="" id="" className="w-[290px] ml-2" />
-          </div>
-          {/* Volume Slider */}
-          <div className="flex mt-11">
-              <VolumeUpIcon className="w-4"/>
-              <input type="range" name="" id="" className="w-[290px] ml-2" />
-          </div>
+        {/* Brightness Slider */}
+        <div className="flex">
+          <SunIcon className="w-4" />
+          <input type="range" name="" id="" className="w-[290px] ml-2" />
+        </div>
+        {/* Volume Slider */}
+        <div className="flex mt-11">
+          <VolumeUpIcon className="w-4" />
+          <input type="range" name="" id="" className="w-[290px] ml-2" />
+        </div>
+      </div>
+      {/* Tray-Footer */}
+      <div className="absolute bottom-0 h-12 w-[357px] bg-zinc-900 right-[0px] rounded-b-md">
+          <div className=" top-4 absolute left-4 flex text-xs items-center"><svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-5 fill-white mr-1"
+          viewBox="0 0 16 16"
+        >
+          <path d="M2 6h5v4H2V6z" />
+          <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z" />
+        </svg> 55%
+        </div>
+        
+        <div className="absolute right-4 flex top-4">
+          <PencilIcon className="w-5 stroke-1" />
+          <CogIcon className="w-5 stroke-1 ml-6" />
+        </div>
       </div>
     </div>
   );
