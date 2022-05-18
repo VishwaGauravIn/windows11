@@ -12,7 +12,7 @@ import React from "react";
 
 export default function TrayItems() {
   return (
-    <div className="w-[357px] h-[394px] bg-zinc-800/90 absolute right-0.5 bottom-3 rounded-lg ring-1 ring-zinc-300/10 p-5">
+    <div className="hidden w-[357px] h-[394px] bg-zinc-800/90 absolute right-0.5 bottom-3 rounded-lg ring-1 ring-zinc-300/10 p-5">
       {/* Stack 1 */}
       <div className="flex justify-between text-sm">
         {/* Item 1 */}

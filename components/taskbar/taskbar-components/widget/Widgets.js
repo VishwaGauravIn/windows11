@@ -11,7 +11,7 @@ export default function Widgets() {
       {/* Header */}
       <div className="relative">
         <p className="absolute left-1/2 -translate-x-1/2 text-3xl mt-5">
-          15:44
+          {d.getHours()}:{d.getMinutes()}
         </p>
         <div className="w-[88px] h-11 bg-gray-600/90 absolute right-4 top-4 rounded-md flex justify-center items-center">
           <PlusIcon className="w-6" />
@@ -37,12 +37,12 @@ export default function Widgets() {
         {/* Stack 1 */}
         <div className="flex justify-between">
           {/* Sports Card */}
-          <SportsWidget/>
+          <SportsWidget />
           {/* Stock Card */}
-          <StockWidget/>
-          </div>
+          <StockWidget />
+        </div>
         {/* Stack 2 */}
-        <TodoWidget/>
+        <TodoWidget />
       </div>
     </div>
   );
