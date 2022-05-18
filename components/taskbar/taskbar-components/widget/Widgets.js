@@ -6,6 +6,7 @@ import StockWidget from "./widget-components/StockWidget";
 import TodoWidget from "./widget-components/TodoWidget";
 
 export default function Widgets() {
+  const d = new Date();
   return (
     <div className="absolute hidden group-hover:block z-20 h-[835px] w-[750px] bg-gray-700/90 top-0 left-4 -mt-[800px] rounded-lg text-gray-200 fadein">
       {/* Header */}
