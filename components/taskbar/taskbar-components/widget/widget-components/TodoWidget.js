@@ -20,7 +20,7 @@ export default function TodoWidget() {
         <a
           href="https://github.com/VishwaGauravIn"
           target="_blank"
-          rel="noopener,noreferrer"
+          rel="noopener noreferrer"
           className="w-full h-10 rounded bg-zinc-100/20 px-2 flex items-center hover:bg-zinc-100/30 transition-all ease-in-out"
         >
           <input
@@ -35,7 +35,7 @@ export default function TodoWidget() {
         <a
           href="https://www.linkedin.com/in/VishwaGauravIn"
           target="_blank"
-          rel="noopener,noreferrer"
+          rel="noopener noreferrer"
           className="w-full h-10 rounded bg-zinc-100/20 px-2 flex items-center mt-4 hover:bg-zinc-100/30 transition-all ease-in-out"
         >
           <input
@@ -50,7 +50,7 @@ export default function TodoWidget() {
         <a
           href="https://twitter.com/vishwagauravin"
           target="_blank"
-          rel="noopener,noreferrer"
+          rel="noopener noreferrer"
           className="w-full h-10 rounded bg-zinc-100/20 px-2 flex items-center mt-4 hover:bg-zinc-100/30 transition-all ease-in-out"
         >
           <input
@@ -65,7 +65,7 @@ export default function TodoWidget() {
         <a
           href="https://github.com/VishwaGauravIn/windows11-clone"
           target="_blank"
-          rel="noopener,noreferrer"
+          rel="noopener noreferrer"
           className="w-full h-10 rounded bg-zinc-100/20 hover:bg-zinc-100/30 transition-all ease-in-out px-2 flex items-center mt-4"
         >
           <input

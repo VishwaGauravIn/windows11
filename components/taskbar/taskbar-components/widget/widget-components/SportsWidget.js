@@ -32,7 +32,7 @@ export default function SportsWidget() {
         <a
           href="https://www.cricbuzz.com/"
           target="_blank"
-          rel="noopener,noreferrer"
+          rel="noopener noreferrer"
         >
           See more about IPL
         </a>
