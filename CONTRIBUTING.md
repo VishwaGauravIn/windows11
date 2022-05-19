@@ -1,8 +1,8 @@
 # CONTRIBUTION GUIDE
-[1. Branch Organisation](https://github.com/VishwaGauravIn/tools-for-tech/blob/master/CONTRIBUTING.md#branch-organization) |
-[2. Prerequisites](https://github.com/VishwaGauravIn/tools-for-tech/blob/master/CONTRIBUTING.md#prerequisites) |
-[3. Report Bugs](https://github.com/VishwaGauravIn/tools-for-tech/blob/master/CONTRIBUTING.md#how-to-report-bugs) |
-[4. Non-Coding Contribution](https://github.com/VishwaGauravIn/tools-for-tech/blob/master/CONTRIBUTING.md#non-coding-contribution)
+[1. Branch Organisation](https://github.com/VishwaGauravIn/windows11/blob/master/CONTRIBUTING.md#branch-organization) |
+[2. Prerequisites](https://github.com/VishwaGauravIn/windows11/blob/master/CONTRIBUTING.md#prerequisites) |
+[3. Report Bugs](https://github.com/VishwaGauravIn/windows11/blob/master/CONTRIBUTING.md#how-to-report-bugs) |
+[4. Non-Coding Contribution](https://github.com/VishwaGauravIn/windows11/blob/master/CONTRIBUTING.md#non-coding-contribution)
 
 ### Branch Organization
 
