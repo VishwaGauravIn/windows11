@@ -34,7 +34,7 @@ export default function StockWidget() {
               <a
                 href="https://www.nseindia.com/market-data/live-equity-market"
                 target="_blank"
-                rel="noopener,noreferrer"
+                rel="noopener noreferrer"
               >
                 Check stock prices
               </a>
