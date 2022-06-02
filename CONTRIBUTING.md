@@ -8,7 +8,7 @@
 
 Submit all changes directly to the main branch. We don’t use separate branches for development or for upcoming releases. We do our best to keep main in good shape, with all tests passing.
 
-Code that lands in main must be compatible with the latest stable release. It may contain additional features, but no breaking changes. We should be able to release a new minor version from the tip of main at any time.
+Code that lands in the main must be compatible with the latest stable release. It may contain additional features, but no breaking changes. We should be able to release a new minor version from the tip of the main at any time.
 
 ### Prerequisites
 - You have Node installed at v8.0.0+ and Yarn at v1.2.0+.
@@ -17,12 +17,12 @@ Code that lands in main must be compatible with the latest stable release. It ma
 - You are familiar with Git.
 
 ### How to Report Bugs
-In order to report bugs, you should create an issue and describe about the bug properly and you can also suggest a way to fix it (in case you know it). You should mention your device details (if possible) so that we can find the fix fast.
+In order to report bugs, you should create an issue and describe the bug properly and you can also suggest a way to fix it (in case you know it). You should mention your device details (if possible) so that we can find the fix fast.
 
 ### Non-Coding Contribution
-Your Contribution is Valuable to us and there are various ways to contribute in this project if are not from coding background, like:
-- You can help us to improve Design
+Your Contribution is Valuable to us and there are various ways to contribute to this project if are not from a coding background, like:
+- You can help us to improve our Design
 - You can create a Documentation for this project
-- You can help us in Marketing department.
+- You can help us in the Marketing department.
 - You can even edit this file. <br>
-    basically, if you want to contribute then there are infinte ways to contribute
+    basically, if you want to contribute then there are infinite ways to contribute
