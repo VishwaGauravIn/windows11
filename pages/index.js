@@ -53,7 +53,7 @@ export default function Home() {
         />
       </Head>
 
-      <body className="text-white h-[864px] w-[1536px]">
+      <body className="text-white h-[100vh] w-[1536px]">
         <Desktop />
         <Taskbar />
       </body>
